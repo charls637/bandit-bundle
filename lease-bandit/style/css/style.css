@@ -1,0 +1,68 @@
+@font-face {
+  font-family: 'Gotham Black';
+  src: url("Gotham Black.eot");
+  src: url("../../fonts/gotham/Gotham Black.eot?#iefix") format("embedded-opentype"), url("../../fonts/gotham/Gotham Black.woff2") format("woff2"), url("../../fonts/gotham/Gotham Black.woff") format("woff"), url("../../fonts/gotham/Gotham Black.svg#Gotham Black") format("svg");
+  font-weight: 900;
+  font-style: normal;
+  font-stretch: normal;
+  unicode-range: U+0020-00FE;
+}
+
+@font-face {
+  font-family: 'Matchbook Regular';
+  src: url("../../fonts/matchbook/matchbookregular-webfont.woff2") format("woff2"), url("../../fonts/matchbook/matchbookregular-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+h1 {
+  font-family: "Gotham Black", arial, sans-serif;
+  font-size: 40px;
+}
+
+.matchbox {
+  font-family: "Matchbook Regular", "Times New Roman", times, serif;
+}
+
+@media (min-width: 992px) {
+  h1 {
+    font-size: 80px;
+  }
+}
+
+#landing {
+  background-color: #65A8DF;
+  background-image: url(../../img/bg-sample.png);
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  background-position: bottom;
+  min-height: 100vh;
+}
+
+.btn-primary {
+  background-color: #437799;
+  border-color: #437799;
+  border-radius: 0px 3px 3px 0px;
+  color: #244052;
+  border-width: 4px;
+}
+
+.btn-primary:hover {
+  background-color: #7ca9c6;
+  border-color: #7ca9c6;
+  color: #244052;
+}
+
+.btn-primary:active {
+  background-color: #244052 !important;
+  border-color: #244052 !important;
+  color: #7ca9c6 !important;
+}
+
+.b-primary {
+  border-style: solid;
+  border-style-right: none;
+  border-width: 4px;
+  border-color: #437799;
+  border-radius: 3px;
+}

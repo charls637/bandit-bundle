@@ -1,0 +1,20 @@
+{
+	"version": 3,
+	"file": "../sass/style.css",
+	"sources": [
+		"../sass/style.scss",
+		"../sass/_colors.scss",
+		"../sass/_typography.scss",
+		"../sass/_boostrap-bandit.scss",
+		"../sass/_buttons.scss"
+	],
+	"sourcesContent": [
+		"@import \"colors\";\n@import \"typography\";\n@import \"boostrap-bandit\";\n@import \"buttons\";\n",
+		"// Colors\n$brand-primary: #25231C;\n$brand-secondary: #CA0088;\n$brand-tertiary: #ded300;",
+		"// Typography\n\n\n@font-face {\n  font-family: 'Knockout';\n  src: url('../../Knockout-HTF28-JuniorFeatherwt.eot') format('embedded-opentype');\n  font-weight: normal;\n  font-style: normal;\n\n}\n\n  @font-face {\n    font-family: 'Matchbook Regular';\n    src: url('../../fonts/matchbook/matchbookregular-webfont.woff2') format('woff2'),\n         url('../../fonts/matchbook/matchbookregular-webfont.woff') format('woff');\n    font-weight: normal;\n    font-style: normal;\n\n}\n\nh1 {\n\tfont-family: Knockout, arial, sans-serif;\n\tfont-size: 80px;\n}\n\n\nh2, h3, h4, h5, h6, {\n}\n\n.matchbox{\n\tfont-family: \"Matchbook Regular\", \"Times New Roman\", times, serif;\n}\n\n@media (min-width: 992px) {\n  //Add Desktop Sizes \n  h1{\n    font-size: 120px\n  } \n}",
+		"#landing{\n\tbackground-color: $brand-primary;\n\tbackground-image: url(../../img/bg-sample.png);\n\tbackground-repeat: no-repeat;\n\tbackground-size: 100% auto;\n\tbackground-position: bottom;\n\tmin-height: 100vh; \n}",
+		"\n.btn{\n\t&-primary{\n\t\t \tbackground-color: $brand-secondary;\n\t\t\tborder-color: $brand-secondary;\n\t\t\tcolor: darken($brand-secondary, 20%);\n\n\t\t&:hover{\n\t\t\tbackground-color: lighten($brand-secondary, 20%);\n\t\t\tborder-color: lighten($brand-secondary, 20%);\n\t\t\tcolor: darken($brand-secondary, 20%);\n\t\t}\n\n\t\t&:active{\n\t\t\t// There are some additional tags that are conflicting this, so we are adding !important to overwrite them\n\t\t\t// This replaces that really long CSS that you had before\n\t\t\tbackground-color: darken($brand-secondary, 20%)!important;\n\t\t\tborder-color: darken($brand-secondary, 20%)!important;\n\t\t\tcolor: lighten($brand-secondary, 20%)!important;\t\t\n\t\t\t\n\t\t}\n\t}\t\t\t\n}\t\t"
+	],
+	"mappings": "AEGA,UAAU;EACR,WAAW,EAAE,UAAW;EACxB,GAAG,EAAE,+CAAG,CAA6C,2BAAM;EAC3D,WAAW,EAAE,MAAO;EACpB,UAAU,EAAE,MAAO;;;AAInB,UAAU;EACR,WAAW,EAAE,mBAAoB;EACjC,GAAG,EAAE,2DAAG,CAAyD,eAAM,EAClE,0DAAG,CAAwD,cAAM;EACtE,WAAW,EAAE,MAAO;EACpB,UAAU,EAAE,MAAO;;;;AAIvB,AAAA,EAAE,CAAC;EACF,WAAW,EAAE,2BAA4B;EACzC,SAAS,EAAE,IAAK;CAChB;;;AAMD,AAAA,SAAS,CAAA;EACR,WAAW,EAAE,oDAAqD;CAClE;;AAED,MAAM,EAAL,SAAS,EAAE,KAAK;;EAEf,AAAA,EAAE,CAAA;IACA,SAAS,EAAE,KACZ;GAAC;;;;ACrCJ,AAAA,QAAQ,CAAA;EACP,gBAAgB,EFAD,OAAO;EECtB,gBAAgB,EAA6B,4BAAC;EAC9C,iBAAiB,EAAE,SAAU;EAC7B,eAAe,EAAE,SAAU;EAC3B,mBAAmB,EAAE,MAAO;EAC5B,UAAU,EAAE,KAAM;CAClB;;;ACND,AAAA,YAAI,CACM;EACN,gBAAgB,EHDF,OAAO;EGEtB,YAAY,EHFG,OAAO;EGGtB,KAAK,EAAE,OAAM;CAgBd;;;AApBF,AAAA,YAAI,AAMD,MAAM,CAAA;EACN,gBAAgB,EAAE,OAAO;EACzB,YAAY,EAAE,OAAO;EACrB,KAAK,EAAE,OAAM;CACb;;;AAVH,AAAA,YAAI,AAYD,OAAO,CAAA;EAGP,gBAAgB,EAAE,OAAM,CAAuB,UAAU;EACzD,YAAY,EAAE,OAAM,CAAuB,UAAU;EACrD,KAAK,EAAE,OAAO,CAAuB,UAAU;CAE/C",
+	"names": []
+}

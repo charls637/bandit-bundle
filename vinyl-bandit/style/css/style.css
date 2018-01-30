@@ -1,0 +1,78 @@
+@font-face {
+  font-family: 'Cooper Std Black';
+  src: url("../../fonts/cooper/CooperBlackStd.eot");
+  src: url("CooperBlackStd.eot?#iefix") format("embedded-opentype"), url("../../fonts/cooper/CooperBlackStd.woff2") format("woff2"), url("../../fonts/cooper/CooperBlackStd.woff") format("woff"), url("../../fonts/cooper/CooperBlackStd.svg#CooperBlackStd") format("svg");
+  font-weight: 900;
+  font-style: normal;
+  font-stretch: normal;
+  unicode-range: U+0020-00FE;
+}
+
+@font-face {
+  font-family: 'Matchbook Regular';
+  src: url("../../fonts/matchbook/matchbookregular-webfont.woff2") format("woff2"), url("../../fonts/matchbook/matchbookregular-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 26, /Users/AmErica/Documents/GitHub/bandit/vinyl-bandit/style/sass/_typography.scss */
+h1 {
+  font-family: "Cooper Std Black", arial, sans-serif;
+  font-size: 40px;
+}
+
+/* line 35, /Users/AmErica/Documents/GitHub/bandit/vinyl-bandit/style/sass/_typography.scss */
+.matchbox {
+  font-family: "Matchbook Regular", "Times New Roman", times, serif;
+}
+
+@media (min-width: 992px) {
+  /* line 41, /Users/AmErica/Documents/GitHub/bandit/vinyl-bandit/style/sass/_typography.scss */
+  h1 {
+    font-size: 80px;
+  }
+}
+
+/* line 1, /Users/AmErica/Documents/GitHub/bandit/vinyl-bandit/style/sass/_boostrap-bandit.scss */
+#landing {
+  background-color: #5A308D;
+  background-image: url(../../img/bg-sample.png);
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  background-position: bottom;
+  min-height: 100vh;
+}
+
+/* line 3, /Users/AmErica/Documents/GitHub/bandit/vinyl-bandit/style/sass/_buttons.scss */
+.btn-primary {
+  background-color: #F5EC4A;
+  border-color: #F5EC4A;
+  border-radius: 0px 3px 3px 0px;
+  color: #cec30b;
+  border-width: 4px;
+}
+
+/* line 10, /Users/AmErica/Documents/GitHub/bandit/vinyl-bandit/style/sass/_buttons.scss */
+.btn-primary:hover {
+  background-color: #faf6ab;
+  border-color: #faf6ab;
+  color: #cec30b;
+}
+
+/* line 16, /Users/AmErica/Documents/GitHub/bandit/vinyl-bandit/style/sass/_buttons.scss */
+.btn-primary:active {
+  background-color: #cec30b !important;
+  border-color: #cec30b !important;
+  color: #faf6ab !important;
+}
+
+/* line 1, /Users/AmErica/Documents/GitHub/bandit/vinyl-bandit/style/sass/_borders.scss */
+.b-primary {
+  border-style: solid;
+  border-style-right: none;
+  border-width: 4px;
+  border-color: #F5EC4A;
+  border-radius: 3px;
+}
+
+/*# sourceMappingURL=../css/style.map */

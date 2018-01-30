@@ -1,0 +1,22 @@
+{
+	"version": 3,
+	"file": "../sass/style.css",
+	"sources": [
+		"../sass/style.scss",
+		"../sass/_colors.scss",
+		"../sass/_typography.scss",
+		"../sass/_boostrap-bandit.scss",
+		"../sass/_buttons.scss",
+		"../sass/_borders.scss"
+	],
+	"sourcesContent": [
+		"@import \"colors\";\n@import \"typography\";\n@import \"boostrap-bandit\";\n@import \"buttons\";\n@import \"borders\";\n",
+		"// Colors\n$brand-primary: #5A308D;\n$brand-secondary: #F5EC4A;\n$brand-tertiary: #ded300;",
+		"// Typography\n\n\n@font-face {\n    font-family:'Cooper Std Black';\n    src: url('../../fonts/cooper/CooperBlackStd.eot');\n  src: url('CooperBlackStd.eot?#iefix') format('embedded-opentype'),\n    url('../../fonts/cooper/CooperBlackStd.woff2') format('woff2'),\n    url('../../fonts/cooper/CooperBlackStd.woff') format('woff'),\n    url('../../fonts/cooper/CooperBlackStd.svg#CooperBlackStd') format('svg');\n    font-weight: 900;\n    font-style: normal;\n    font-stretch: normal;\n    unicode-range: U+0020-00FE;\n}\n\n  @font-face {\n    font-family: 'Matchbook Regular';\n    src: url('../../fonts/matchbook/matchbookregular-webfont.woff2') format('woff2'),\n         url('../../fonts/matchbook/matchbookregular-webfont.woff') format('woff');\n    font-weight: normal;\n    font-style: normal;\n\n}\n\nh1 {\n\tfont-family: \"Cooper Std Black\", arial, sans-serif;\n\tfont-size: 40px;\n}\n\n\nh2, h3, h4, h5, h6, {\n}\n\n.matchbox{\n\tfont-family: \"Matchbook Regular\", \"Times New Roman\", times, serif;\n}\n\n@media (min-width: 992px) {\n  //Add Desktop Sizes \n  h1{\n    font-size: 80px\n  } \n}",
+		"#landing{\n\tbackground-color: $brand-primary;\n\tbackground-image: url(../../img/bg-sample.png);\n\tbackground-repeat: no-repeat;\n\tbackground-size: 100% auto;\n\tbackground-position: bottom;\n\tmin-height: 100vh; \n}",
+		"\n.btn{\n\t&-primary{\n\t\t \tbackground-color: $brand-secondary;\n\t\t\tborder-color: $brand-secondary;\n\t\t\tborder-radius: 0px 3px 3px 0px;\n\t\t\tcolor: darken($brand-secondary, 20%);\n\t\t\tborder-width: 4px;\n\n\t\t&:hover{\n\t\t\tbackground-color: lighten($brand-secondary, 20%);\n\t\t\tborder-color: lighten($brand-secondary, 20%);\n\t\t\tcolor: darken($brand-secondary, 20%);\n\t\t}\n\n\t\t&:active{\n\t\t\t// There are some additional tags that are conflicting this, so we are adding !important to overwrite them\n\t\t\t// This replaces that really long CSS that you had before\n\t\t\tbackground-color: darken($brand-secondary, 20%)!important;\n\t\t\tborder-color: darken($brand-secondary, 20%)!important;\n\t\t\tcolor: lighten($brand-secondary, 20%)!important;\t\t\n\t\t\t\n\t\t}\n\t}\t\t\t\n}\t\t",
+		".b-primary{\n\t\t\tborder-style: solid;\n\t\t\tborder-style-right: none;\n\t\t \tborder-width: 4px;\n\t\t\tborder-color: $brand-secondary;\n\t\t\tborder-radius: 3px;\n\t\t}\n"
+	],
+	"mappings": "AEGA,UAAU;EACN,WAAW,EAAC,kBAAmB;EAC/B,GAAG,EAAE,4CAAG;EACV,GAAG,EAAE,gCAAG,CAA8B,2BAAM,EAC1C,8CAAG,CAA4C,eAAM,EACrD,6CAAG,CAA2C,cAAM,EACpD,2DAAG,CAAyD,aAAM;EAClE,WAAW,EAAE,GAAI;EACjB,UAAU,EAAE,MAAO;EACnB,YAAY,EAAE,MAAO;EACrB,aAAa,EAAE,WAAY;;;AAG7B,UAAU;EACR,WAAW,EAAE,mBAAoB;EACjC,GAAG,EAAE,2DAAG,CAAyD,eAAM,EAClE,0DAAG,CAAwD,cAAM;EACtE,WAAW,EAAE,MAAO;EACpB,UAAU,EAAE,MAAO;;;;AAIvB,AAAA,EAAE,CAAC;EACF,WAAW,EAAE,qCAAsC;EACnD,SAAS,EAAE,IAAK;CAChB;;;AAMD,AAAA,SAAS,CAAA;EACR,WAAW,EAAE,oDAAqD;CAClE;;AAED,MAAM,EAAL,SAAS,EAAE,KAAK;;EAEf,AAAA,EAAE,CAAA;IACA,SAAS,EAAE,IACZ;GAAC;;;;AC1CJ,AAAA,QAAQ,CAAA;EACP,gBAAgB,EFAD,OAAO;EECtB,gBAAgB,EAA6B,4BAAC;EAC9C,iBAAiB,EAAE,SAAU;EAC7B,eAAe,EAAE,SAAU;EAC3B,mBAAmB,EAAE,MAAO;EAC5B,UAAU,EAAE,KAAM;CAClB;;;ACND,AAAA,YAAI,CACM;EACN,gBAAgB,EHDF,OAAO;EGEtB,YAAY,EHFG,OAAO;EGGtB,aAAa,EAAE,eAAgB;EAC/B,KAAK,EAAE,OAAM;EACb,YAAY,EAAE,GAAI;CAgBnB;;;AAtBF,AAAA,YAAI,AAQD,MAAM,CAAA;EACN,gBAAgB,EAAE,OAAO;EACzB,YAAY,EAAE,OAAO;EACrB,KAAK,EAAE,OAAM;CACb;;;AAZH,AAAA,YAAI,AAcD,OAAO,CAAA;EAGP,gBAAgB,EAAE,OAAM,CAAuB,UAAU;EACzD,YAAY,EAAE,OAAM,CAAuB,UAAU;EACrD,KAAK,EAAE,OAAO,CAAuB,UAAU;CAE/C;;;ACtBH,AAAA,UAAU,CAAA;EACP,YAAY,EAAE,KAAM;EACpB,kBAAkB,EAAE,IAAK;EACxB,YAAY,EAAE,GAAI;EACnB,YAAY,EJFG,OAAO;EIGtB,aAAa,EAAE,GAAI;CACnB",
+	"names": []
+}

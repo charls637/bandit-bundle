@@ -1,0 +1,45 @@
+.btn{
+	&-primary{
+		 	background-color: $brand-secondary;
+			border-color: $brand-secondary;
+			border-radius: 0px 13px 13px 0px;
+			color: darken($brand-secondary, 20%);
+			border-width: 4px;
+			display: block;	
+
+		&:hover{
+			background-color: lighten($brand-secondary, 20%);
+			border-color: lighten($brand-secondary, 20%);
+			color: darken($brand-secondary, 20%);
+		}
+
+		&:active{
+			background-color: darken($brand-secondary, 20%)!important;
+			border-color: darken($brand-secondary, 20%)!important;
+			color: lighten($brand-secondary, 20%)!important;		
+			
+		}
+	}
+	&-mobile{
+		 	background-color: $brand-secondary;
+			border-color: $brand-secondary;
+			border-radius: 13px 13px 13px 13px;
+			color: darken($brand-secondary, 20%);
+			border-width: 4px;
+			display: block;
+			font-size: 10px;
+
+		&:hover{
+			background-color: lighten($brand-secondary, 20%);
+			border-color: lighten($brand-secondary, 20%);
+			color: darken($brand-secondary, 20%);
+		}
+
+		&:active{
+			background-color: darken($brand-secondary, 20%)!important;
+			border-color: darken($brand-secondary, 20%)!important;
+			color: lighten($brand-secondary, 20%)!important;	
+		}
+	
+	}
+	}			

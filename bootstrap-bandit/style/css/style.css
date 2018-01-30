@@ -1,0 +1,65 @@
+@font-face {
+  font-family: 'Knockout';
+  src: url("../../Knockout-HTF28-JuniorFeatherwt.eot") format("embedded-opentype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Matchbook Regular';
+  src: url("../../fonts/matchbook/matchbookregular-webfont.woff2") format("woff2"), url("../../fonts/matchbook/matchbookregular-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+h1 {
+  font-family: Knockout, arial, sans-serif;
+  font-size: 80px;
+}
+
+.matchbox {
+  font-family: "Matchbook Regular", "Times New Roman", times, serif;
+}
+
+@media (min-width: 992px) {
+  h1 {
+    font-size: 120px;
+  }
+}
+
+#landing {
+  background-color: #f05a28;
+  background-image: url(../../img/bg-sample.png);
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  background-position: bottom;
+  min-height: 100vh;
+}
+
+.btn-primary {
+  background-color: #fff200;
+  border-color: #fff200;
+  border-radius: 0px 3px 3px 0px;
+  color: #999100;
+  border-width: 4px;
+}
+
+.btn-primary:hover {
+  background-color: #fff766;
+  border-color: #fff766;
+  color: #999100;
+}
+
+.btn-primary:active {
+  background-color: #999100 !important;
+  border-color: #999100 !important;
+  color: #fff766 !important;
+}
+
+.b-primary {
+  border-style: solid;
+  border-style-right: none;
+  border-width: 4px;
+  border-color: #fff200;
+  border-radius: 3px;
+}

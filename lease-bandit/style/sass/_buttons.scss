@@ -1,0 +1,24 @@
+.btn{
+	&-primary{
+		 	background-color: $brand-secondary;
+			border-color: $brand-secondary;
+			border-radius: 0px 3px 3px 0px;
+			color: darken($brand-secondary, 20%);
+			border-width: 4px;
+
+		&:hover{
+			background-color: lighten($brand-secondary, 20%);
+			border-color: lighten($brand-secondary, 20%);
+			color: darken($brand-secondary, 20%);
+		}
+
+		&:active{
+			// There are some additional tags that are conflicting this, so we are adding !important to overwrite them
+			// This replaces that really long CSS that you had before
+			background-color: darken($brand-secondary, 20%)!important;
+			border-color: darken($brand-secondary, 20%)!important;
+			color: lighten($brand-secondary, 20%)!important;		
+			
+		}
+	}			
+}		

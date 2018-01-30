@@ -1,0 +1,39 @@
+// Typography
+
+
+@font-face {
+  font-family: 'Knockout';
+  src: url('../../Knockout-HTF28-JuniorFeatherwt.eot') format('embedded-opentype');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+  @font-face {
+    font-family: 'Matchbook Regular';
+    src: url('../../fonts/matchbook/matchbookregular-webfont.woff2') format('woff2'),
+         url('../../fonts/matchbook/matchbookregular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+h1 {
+	font-family: Knockout, arial, sans-serif;
+	font-size: 80px;
+}
+
+
+h2, h3, h4, h5, h6, {
+}
+
+.matchbox{
+	font-family: "Matchbook Regular", "Times New Roman", times, serif;
+}
+
+@media (min-width: 992px) {
+  //Add Desktop Sizes 
+  h1{
+    font-size: 120px
+  } 
+}
